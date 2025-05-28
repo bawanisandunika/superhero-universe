@@ -1,4 +1,4 @@
-// Update timestamp
+// Update time
 function updateTimestamp() {
     const now = new Date();
     document.getElementById('update-time').textContent = now.toLocaleString();
@@ -406,6 +406,6 @@ function addConnection() {
     });
 }
 
-// Initialize the page
+
 loadStats();
 renderD3Graph();

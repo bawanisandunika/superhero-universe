@@ -13,10 +13,10 @@ from matplotlib.colors import to_hex
 
 app = Flask(__name__)
 
-# Configure matplotlib to use Agg backend
+
 plt.switch_backend('Agg')
 
-# Path to data files
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 HEROES_FILE = os.path.join(DATA_DIR, 'superheroes.csv')
